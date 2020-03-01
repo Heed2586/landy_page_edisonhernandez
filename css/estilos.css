@@ -1,0 +1,223 @@
+body {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+figure{
+    margin: 0;
+}
+
+h1,h2 {
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* container */
+.container {
+    max-width: 1024px;;
+    margin: 0 auto;
+}
+/* /container */
+
+/* header */
+.header {
+    display: flex;
+    height: 6em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header ul {
+	display: flex;
+}
+.header a{
+	/* text-decoration: none; */
+    color: black;
+    padding: 0 1em;
+}
+/* /header */
+
+/* hero */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.h1 h1 strong{
+    font-size: 3em;
+}
+
+.h1 h2 {
+    text-align: right;
+    padding: 0 0.4em 0 0;
+}
+
+.h1 {
+    margin: 0 6em 0 0;
+    padding: 0 0 0 1em;
+    text-align: justify;
+}
+
+.button {
+    margin-top: 2em;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.button a{
+    text-decoration: none;
+    background-color: #7fdd00;
+    color: white;
+    padding: 1em 2em;
+}
+/* /hero */
+
+/* About Me */
+
+.about_me,
+.services,
+.portfolio {
+    margin: 4em 0;
+}
+.container_title{
+    width:200px;
+    margin: 2em auto;
+}
+
+.square {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(127, 221, 0, .5);
+    position: absolute;
+
+}
+
+.title {
+    font-size: 3em;
+    font-family: Lato, sans-serif;
+    position: relative;
+    top: -8px;
+    color: #303030;
+
+}
+.container_about_me {
+    display: flex;
+}
+
+.container_about_me_one {
+    padding-right: 4em;
+}
+.container_about_me_one,
+.container_about_me_two {
+    text-align: justify;
+}
+
+.container_about_me_two a {
+    border: 1px solid #7fdd00;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.subtitle {
+    width: 115px;
+    border-bottom: 2px solid #7fdd00;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+}
+.facebook {
+    color: #3b5998;
+}
+.twitter {
+    color: #55acee;
+}
+.github {
+    color: #303030;
+}
+.linkedin {
+    color: #007bb5;
+}
+.behance {
+    color: #053eff;
+}
+.email,
+.facebook,
+.twitter,
+.github,
+.linkedin,
+.behance {
+    font-weight: bold;
+}
+/* /About Me */
+
+.container_services {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.services_article {
+    width: 300px;
+    border: 1px solid #dcd9d9;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+.service_title {
+    color: #7fdd00;
+    font-size: 1.5em;
+}
+
+.portfolio img {
+    display: block;
+    margin: 0 auto;
+}
+.form-email {
+    padding: 1em;
+    text-align: center;
+
+}
+.form-email input {
+    width: 70%;
+    border: 1px solid #dcd9d9;
+    padding: 1em;
+    margin: 1em 0;
+    font-family: Poppins, sans-serif;
+}
+.form-email button {
+    background: transparent;
+    color: #7fdd00;
+    border: 1px solid #7fdd00;
+    font-size: 1em;
+    padding: 1em;
+    margin: 1em 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+    width: 70%;
+}
+
+.form-email button:hover {
+      background-color: #7fdd00;
+      color: white;
+ }
+ .contact p {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+ }
